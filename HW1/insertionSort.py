@@ -8,11 +8,10 @@ def iSort(a):
 	inList = map(int, a.split())
 
 	for i in range(len(inList)):
-		print i
-		compVal = inList[i]
-		
-		counter = i-1 
-		print counter
+
+        compVal = inList[i]
+
+		counter = i-1
 
 		while (counter>=0 and inList[counter] > compVal):
 
